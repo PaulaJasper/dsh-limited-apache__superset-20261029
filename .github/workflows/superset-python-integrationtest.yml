@@ -95,7 +95,7 @@ jobs:
           flags: python,mysql
           verbose: true
           use_oidc: true
-          slug: apache/superset
+          slug: PaulaJasper/dsh-limited-apache__superset-20261029
       - name: Generate database diagnostics for docs
         env:
           SUPERSET_CONFIG: tests.integration_tests.superset_test_config
@@ -183,7 +183,7 @@ jobs:
           flags: python,postgres
           verbose: true
           use_oidc: true
-          slug: apache/superset
+          slug: PaulaJasper/dsh-limited-apache__superset-20261029
 
   test-sqlite:
     needs: changes
@@ -232,7 +232,7 @@ jobs:
           flags: python,sqlite
           verbose: true
           use_oidc: true
-          slug: apache/superset
+          slug: PaulaJasper/dsh-limited-apache__superset-20261029
 
   # Stable required-status-check anchor for the matrix-based test-postgres job.
   # It is gated on change detection, so on non-Python PRs it is skipped and

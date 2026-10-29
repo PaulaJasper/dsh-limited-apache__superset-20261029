@@ -95,7 +95,7 @@ jobs:
           flags: python,presto
           verbose: true
           use_oidc: true
-          slug: apache/superset
+          slug: PaulaJasper/dsh-limited-apache__superset-20261029
 
   test-postgres-hive:
     needs: changes
@@ -157,4 +157,4 @@ jobs:
           flags: python,hive
           verbose: true
           use_oidc: true
-          slug: apache/superset
+          slug: PaulaJasper/dsh-limited-apache__superset-20261029

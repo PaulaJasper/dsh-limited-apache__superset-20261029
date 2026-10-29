@@ -88,7 +88,7 @@ jobs:
           flags: python,unit
           verbose: true
           use_oidc: true
-          slug: apache/superset
+          slug: PaulaJasper/dsh-limited-apache__superset-20261029
 
   # Stable required-status-check anchor. `unit-tests` is a matrix job gated on
   # change detection, so on non-Python PRs it is skipped and never produces its

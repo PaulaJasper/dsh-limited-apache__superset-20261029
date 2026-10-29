@@ -141,7 +141,7 @@ jobs:
           verbose: true
           disable_search: true
           files: merged-output/coverage-summary.json
-          slug: apache/superset
+          slug: PaulaJasper/dsh-limited-apache__superset-20261029
 
   lint-frontend:
     needs: frontend-build
